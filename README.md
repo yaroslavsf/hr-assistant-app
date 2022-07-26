@@ -1,7 +1,7 @@
 1. npx create-react-app hr-react-app
 2. create subfolder for backend
 3. backend: 
-- .env (own connection string and port)
+- .env (own connection string with auth and db-name and port)
 - server.js
 - api_routes(folder)
 	-api_someNameOfTable
