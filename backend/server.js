@@ -26,10 +26,11 @@ connection.once('open', () => {
 
 
 //api rotes register
+
 const usersRouter = require('./api_routes/api_users')
 const techTasksRouter = require('./api_routes/api_tech-tasks')
 //
-// app.use('/users', usersRouter)
+app.use('/users', usersRouter)  
 // app.use('/tech-tasks', techTasksRouter)
 
 app.listen(port, () => {
